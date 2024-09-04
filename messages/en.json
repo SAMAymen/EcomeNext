@@ -1,0 +1,266 @@
+{
+    "general": {
+        "priceCurrency": "MAD"
+    },
+    "breadcrumb": {
+        "home": "Home",
+        "products": "Products",
+        "about": "About Us",
+        "contact": "Contact"
+    },
+    "navbar": {
+        "home": "Home",
+        "products": "Products",
+        "about": "About Us",
+        "contact": "Contact",
+        "login": "Login",
+        "logout": "Logout"
+    },
+    "offerBanner": {
+        "message": "Take advantage of our",
+        "offerLink": "special offers",
+        "details": ""
+    },
+    "homepage": {
+        "featuredProduct": {
+            "title": "Featured Product",
+            "descriptionTitle": "Featured Gaming Console",
+            "descriptionText": "Experience the ultimate gaming with our latest console. It offers unparalleled performance, stunning graphics, and an immersive gaming experience.",
+            "priceLabel": "$499.99",
+            "viewDetailsButton": "View Details",
+            "keyFeaturesTitle": "Key Features",
+            "feature1": "High-definition graphics",
+            "feature2": "Fast performance",
+            "feature3": "Extended battery life",
+            "reviewsRating": "4.8/5 based on 120 reviews"
+        },
+        "shopByCategory": {
+            "title": "Shop by Category",
+            "category1": "Consoles",
+            "category2": "Games",
+            "category3": "Accessories"
+        },
+        "saleBanner": {
+            "title": "🎉 Summer Sale is On! 🎉",
+            "description": "Get up to 50% off on select items! Limited time offer. Don’t miss out!",
+            "shopNow": "Shop Now"
+        },
+        "whyChooseUs": {
+            "title": "Why Choose Us?",
+            "description": "Discover why our customers love shopping with us and how we stand out in the gaming industry.",
+            "benefit1Title": "Quality Products",
+            "benefit1Description": "We offer a curated selection of high-quality gaming products to ensure the best experience for our customers.",
+            "benefit2Title": "Competitive Prices",
+            "benefit2Description": "Our prices are designed to be affordable, offering great value without compromising on quality.",
+            "benefit3Title": "24/7 Customer Support",
+            "benefit3Description": "Our support team is available around the clock to assist with any questions or issues you may have."
+        }
+    },
+    "footer": {
+        "description": "Next lite online - Your ultimate gaming destination",
+        "quickLinks": {
+            "title": "Quick Links",
+            "home": "Home",
+            "products": "Products",
+            "aboutUs": "About Us",
+            "contact": "Contact",
+            "privacyPolicy": "Privacy Policy"
+        },
+        "contactUs": {
+            "title": "Contact Us",
+            "email": "Email: contact@nextliteonline.com",
+            "phone": "Phone: 0617473075"
+        },
+        "followUs": {
+            "title": "Follow Us"
+        },
+        "copyright": "© {year} next lite online. All rights reserved."
+    },
+    "productCard": {
+        "discountBadge": "Up to 50% Off",
+        "fastDelivery": "Fast Delivery",
+        "bestPrice": "Best Price",
+        "priceSuffix": "MAD",
+        "buyNow": "Buy Now"
+    },
+    "productPage": {
+        "productNotFound": "Product not found"
+    },
+    "landingPage": {
+        "heroSection": {
+            "title": "Product Name",
+            "description": "Product Description",
+            "buyNow": "Buy Now"
+        },
+        "featuresSection": {
+            "title": "Innovation Meets Tradition: Your Ultimate Gaming Set",
+            "description": "Combining timeless classics with modern design, where strategic thinking and fast-paced fun unite."
+        },
+        "reviewsSection": {
+            "title": "What Our Customers Are Saying",
+            "description": "Discover what our satisfied customers have to say about our products. Read through their experiences and see how our offerings have made a difference in their lives.",
+            "review": "Review",
+            "rating": "Rating"
+        },
+        "specificationsSection": {
+            "title": "Beyond the Basics: What Sets This Product Apart",
+            "description": "Discover the unique features that make this product stand out from the rest."
+        },
+        "orderProcessSection": {
+            "title": "Easy Ordering Process",
+            "description": "Get your favorite product easily through a simple and fast ordering process.",
+            "selectProduct": {
+                "title": "Select Product",
+                "description": "Choose your favorite product from our selection."
+            },
+            "placeOrder": {
+                "title": "Place Your Order",
+                "description": "Complete the order form and submit your details."
+            },
+            "fastShipping": {
+                "title": "Fast Shipping",
+                "description": "We'll process and ship your order within 24 hours."
+            }
+        },
+        "orderFormSection": {
+            "title": "Place Your Order Now",
+            "packagingNote": "The product will be shipped in a large plastic envelope for safe delivery.",
+            "customerName": {
+                "label": "Your Name",
+                "placeholder": "Enter your name",
+                "error": "Name is required"
+            },
+            "customerPhone": {
+                "label": "Phone Number",
+                "placeholder": "Enter your phone number",
+                "error": "Phone number is required and should be 10 digits and valid"
+            },
+            "shippingAddress": {
+                "label": "Shipping Address",
+                "placeholder": "Enter your shipping address",
+                "error": "Shipping address is required"
+            },
+            "quantity": {
+                "label": "Quantity",
+                "error": "Quantity must be at least 1"
+            },
+            "paymentMethod": "Payment Method: Cash on Delivery",
+            "totalPrice": "Total Price",
+            "discountApplied": "Discount Applied",
+            "placeOrder": "Place Order",
+            "orderSuccess": "Order placed successfully",
+            "orderFailed": "Failed to place order",
+            "productPrice": "Product Price",
+            "discount": "Discount",
+            "freeShipping": "Free Shipping",
+            "shipping": "Shipping"
+        }
+    },
+    "thankYouPage": {
+        "title": "Thank You for Your Order!",
+        "message": "We’re excited to fulfill your order. Our team will process it shortly.",
+        "callSoon": {
+            "title": "We’ll Call You Soon",
+            "description": "Expect a call from our team to confirm your order details."
+        },
+        "preparingShipment": {
+            "title": "Preparing for Shipment",
+            "description": "We’re getting your items ready for delivery."
+        },
+        "orderConfirmationEmail": {
+            "title": "Order Confirmation Email",
+            "description": "Check your inbox for a detailed order summary."
+        },
+        "returnHome": "Return to Home Page"
+    },
+    "privacy": {
+        "privacyPolicy": {
+            "title": "Privacy Policy",
+            "description": "This privacy policy outlines how we collect and use information on our platform.",
+            "section1": {
+                "title": "Collection and Use of Information",
+                "description": "When you register on our site, you are asked to provide personal information as well as billing information when placing an order. This information is primarily used to facilitate your purchases, allowing you to complete orders quickly without having to re-enter the same information multiple times."
+            },
+            "section2": {
+                "title": "Participation in Surveys and Contests",
+                "description": "We ask visitors to our site, who participate in surveys or contests organized by our platform, to provide certain information. Participation in these activities is entirely voluntary, and you are free to provide this information or not. The requested information includes your contact details, which are only used to contact the winners of the contests."
+            },
+            "section3": {
+                "title": "Log Files and Analytics",
+                "description": "Like many websites, we use log files to collect data such as IP addresses, browser type, internet service provider, pages visited/exit, platform type, as well as date/time stamps and click counts. This information is collected for analysis, management, monitoring, and diagnosing overall site usage."
+            },
+            "section4": {
+                "title": "Service-Related Announcements",
+                "description": "We may occasionally send service-related announcements to our users. For example, if our site is temporarily unavailable due to maintenance, we may notify users by email. These non-promotional messages generally cannot be opted out of."
+            },
+            "section5": {
+                "title": "Legal Disclosure of Information",
+                "description": "While our priority is to protect the confidentiality of the information you provide, we may be required by law to disclose the information you have voluntarily provided when placing an order. We may also share information about a third party who poses a risk to our interests or whose activities could harm others."
+            },
+            "section6": {
+                "title": "Sharing with Service Providers",
+                "description": "As part of our operations, we may share your personal information with service providers to whom we outsource certain tasks. These companies are not authorized to share, store, or use your personal information for any other purpose than what they are contracted for."
+            },
+            "section7": {
+                "title": "Sharing with Group Companies",
+                "description": "We may share some of your personal information with companies in our group. Our sister companies that have access to your information will treat it with the same level of confidentiality that they apply to their own customers' information."
+            },
+            "section8": {
+                "title": "Links to Other Sites",
+                "description": "Please note that our site may contain links to other websites. These sites may collect personal information about you. These legal terms do not cover the information collection practices or policies of those sites."
+            },
+            "section9": {
+                "title": "Security Measures",
+                "description": "We implement several security measures to safeguard the personal information you provide. Although no method of transmission over the internet or method of electronic storage is 100% secure, we strive to use commercially acceptable means to protect your personal data."
+            },
+            "section10": {
+                "title": "Changes to This Privacy Policy",
+                "description": "We reserve the right to modify this privacy policy at any time. Any changes will be communicated through the update of this document. We encourage you to review it regularly."
+            }
+        }
+    },
+    "contact": {
+        "title": "Contact Us",
+        "description": "Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.",
+        "emailLabel": "Your email",
+        "emailPlaceholder": "Enter your email",
+        "subjectLabel": "Subject",
+        "subjectPlaceholder": "Let us know how we can help you",
+        "messageLabel": "Your message",
+        "messagePlaceholder": "Leave a comment...",
+        "submitButton": "Send message"
+    },
+    "about": {
+        "title": "About Us",
+        "description": "Learn more about our company, our mission, and the values that drive us.",
+        "ourStory": {
+            "title": "Our Story",
+            "description": "We started with a vision to create high-quality, innovative products that bring people together. Our journey has been one of passion, dedication, and growth."
+        },
+        "ourMission": {
+            "title": "Our Mission",
+            "description": "Our mission is to provide exceptional products that enhance your life and bring joy to every occasion. We strive for excellence and innovation in everything we do."
+        },
+        "ourValues": {
+            "title": "Our Values",
+            "description": "Integrity, customer focus, and continuous improvement are the core values that guide us. We are committed to upholding these values in all our endeavors."
+        }
+    },
+    "thankYou": {
+        "title": "Thank You for Your Order!",
+        "description": "We’re excited to fulfill your order. Our team will process it shortly.",
+        "callSoon": {
+            "title": "We’ll Call You Soon",
+            "description": "Expect a call from our team to confirm your order details."
+        },
+        "preparingShipment": {
+            "title": "Preparing for Shipment",
+            "description": "We’re getting your items ready for delivery."
+        },
+        "orderConfirmationEmail": {
+            "title": "Order Confirmation Email",
+            "description": "Check your inbox for a detailed order summary."
+        },
+        "returnHome": "Return to Home Page"
+    }
+}

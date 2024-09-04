@@ -1,0 +1,266 @@
+{
+    "general": {
+        "priceCurrency": "MAD"
+    },
+    "breadcrumb": {
+        "home": "Accueil",
+        "products": "Produits",
+        "about": "À Propos",
+        "contact": "Contact"
+    },
+    "navbar": {
+        "home": "Accueil",
+        "products": "Produits",
+        "about": "À Propos",
+        "contact": "Contact",
+        "login": "Connexion",
+        "logout": "Déconnexion"
+    },
+    "offerBanner": {
+        "message": "Profitez de notre",
+        "offerLink": "offre spéciale",
+        "details": ""
+    },
+    "homepage": {
+        "featuredProduct": {
+            "title": "Produit Vedette",
+            "descriptionTitle": "Console de Jeu Vedette",
+            "descriptionText": "Vivez une expérience de jeu ultime avec notre dernière console. Elle offre des performances inégalées, des graphismes époustouflants et une expérience de jeu immersive.",
+            "priceLabel": "499,99 $",
+            "viewDetailsButton": "Voir les Détails",
+            "keyFeaturesTitle": "Caractéristiques Clés",
+            "feature1": "Graphismes haute définition",
+            "feature2": "Performance rapide",
+            "feature3": "Autonomie de batterie prolongée",
+            "reviewsRating": "4,8/5 basé sur 120 avis"
+        },
+        "shopByCategory": {
+            "title": "Acheter par Catégorie",
+            "category1": "Consoles",
+            "category2": "Jeux",
+            "category3": "Accessoires"
+        },
+        "saleBanner": {
+            "title": "🎉 Vente d'Été en Cours ! 🎉",
+            "description": "Jusqu'à 50 % de réduction sur certains articles ! Offre limitée. Ne manquez pas ça !",
+            "shopNow": "Achetez Maintenant"
+        },
+        "whyChooseUs": {
+            "title": "Pourquoi Nous Choisir ?",
+            "description": "Découvrez pourquoi nos clients aiment faire leurs achats chez nous et comment nous nous distinguons dans l'industrie du jeu.",
+            "benefit1Title": "Produits de Qualité",
+            "benefit1Description": "Nous proposons une sélection soignée de produits de jeu de haute qualité pour garantir la meilleure expérience à nos clients.",
+            "benefit2Title": "Prix Compétitifs",
+            "benefit2Description": "Nos prix sont conçus pour être abordables, offrant un excellent rapport qualité-prix sans compromettre la qualité.",
+            "benefit3Title": "Support Client 24/7",
+            "benefit3Description": "Notre équipe de support est disponible 24h/24 et 7j/7 pour répondre à toutes vos questions ou problèmes."
+        }
+    },
+    "footer": {
+        "description": "Next lite online - Votre destination de jeu ultime",
+        "quickLinks": {
+            "title": "Liens Rapides",
+            "home": "Accueil",
+            "products": "Produits",
+            "aboutUs": "À Propos",
+            "contact": "Contact",
+            "privacyPolicy": "Politique de Confidentialité"
+        },
+        "contactUs": {
+            "title": "Contactez-Nous",
+            "email": "Email : contact@nextliteonline.com",
+            "phone": "Téléphone : 0617473075"
+        },
+        "followUs": {
+            "title": "Suivez-Nous"
+        },
+        "copyright": "© {year} Next lite online. Tous droits réservés."
+    },
+    "productCard": {
+        "discountBadge": "Jusqu'à 50% de réduction",
+        "fastDelivery": "Livraison Rapide",
+        "bestPrice": "Meilleur Prix",
+        "priceSuffix": "MAD",
+        "buyNow": "Acheter Maintenant"
+    },
+    "productPage": {
+        "productNotFound": "Produit non trouvé"
+    },
+    "landingPage": {
+        "heroSection": {
+            "title": "Nom du Produit",
+            "description": "Description du Produit",
+            "buyNow": "Acheter Maintenant"
+        },
+        "featuresSection": {
+            "title": "L'Innovation Rencontre la Tradition : Votre Ensemble de Jeux Ultime",
+            "description": "Alliant les classiques intemporels à un design moderne, où la pensée stratégique et le plaisir rapide se rejoignent."
+        },
+        "reviewsSection": {
+            "title": "Ce Que Disent Nos Clients",
+            "description": "Découvrez ce que nos clients satisfaits pensent de nos produits. Lisez leurs témoignages et voyez comment nos offres ont eu un impact positif dans leur vie.",
+            "review": "Avis",
+            "rating": "Évaluation"
+        },
+        "specificationsSection": {
+            "title": "Au-Delà des Bases : Ce Qui Rend Ce Produit Unique",
+            "description": "Découvrez les caractéristiques uniques qui font que ce produit se démarque des autres."
+        },
+        "orderProcessSection": {
+            "title": "Processus de Commande Facile",
+            "description": "Obtenez votre produit préféré facilement grâce à un processus de commande simple et rapide.",
+            "selectProduct": {
+                "title": "Sélectionner un Produit",
+                "description": "Choisissez votre produit préféré parmi notre sélection."
+            },
+            "placeOrder": {
+                "title": "Passer Votre Commande",
+                "description": "Complétez le formulaire de commande et soumettez vos informations."
+            },
+            "fastShipping": {
+                "title": "Expédition Rapide",
+                "description": "Nous traiterons et expédierons votre commande dans les 24 heures."
+            }
+        },
+        "orderFormSection": {
+            "title": "Passez Votre Commande Maintenant",
+            "packagingNote": "Le produit sera expédié dans un grand emballage en plastique pour une livraison sécurisée.",
+            "customerName": {
+                "label": "Votre Nom",
+                "placeholder": "Entrez votre nom",
+                "error": "Le nom est requis"
+            },
+            "customerPhone": {
+                "label": "Numéro de Téléphone",
+                "placeholder": "Entrez votre numéro de téléphone",
+                "error": "Le numéro de téléphone est requis et doit comporter 10 chiffres et être valide"
+            },
+            "shippingAddress": {
+                "label": "Adresse de Livraison",
+                "placeholder": "Entrez votre adresse de livraison",
+                "error": "L'adresse de livraison est requise"
+            },
+            "quantity": {
+                "label": "Quantité",
+                "error": "La quantité doit être d'au moins 1"
+            },
+            "paymentMethod": "Méthode de Paiement : Paiement à la Livraison",
+            "totalPrice": "Prix Total",
+            "discountApplied": "Remise Appliquée",
+            "placeOrder": "Passer la Commande",
+            "orderSuccess": "Commande passée avec succès",
+            "orderFailed": "Échec de la commande",
+            "productPrice": "Prix du Produit",
+            "discount": "Remise",
+            "freeShipping": "Livraison Gratuite",
+            "shipping": "Livraison"
+        }
+    },
+    "thankYouPage": {
+        "title": "Merci pour Votre Commande !",
+        "message": "Nous sommes impatients de traiter votre commande. Notre équipe s'en occupera sous peu.",
+        "callSoon": {
+            "title": "Nous Vous Appellerons Bientôt",
+            "description": "Attendez-vous à un appel de notre équipe pour confirmer les détails de votre commande."
+        },
+        "preparingShipment": {
+            "title": "Préparation de l'Expédition",
+            "description": "Nous préparons vos articles pour la livraison."
+        },
+        "orderConfirmationEmail": {
+            "title": "Email de Confirmation de Commande",
+            "description": "Vérifiez votre boîte de réception pour un résumé détaillé de la commande."
+        },
+        "returnHome": "Retour à la Page d'Accueil"
+    },
+    "privacy": {
+        "privacyPolicy": {
+            "title": "Politique de Confidentialité",
+            "description": "Cette politique de confidentialité décrit comment nous collectons et utilisons les informations sur notre plateforme.",
+            "section1": {
+                "title": "Collecte et Utilisation des Informations",
+                "description": "Lors de votre inscription sur notre site, vous êtes invité à fournir des informations personnelles ainsi que des informations de facturation lors de la passation d'une commande. Ces informations sont principalement utilisées pour faciliter vos achats, vous permettant de compléter rapidement vos commandes sans avoir à saisir plusieurs fois les mêmes informations."
+            },
+            "section2": {
+                "title": "Participation aux Sondages et Concours",
+                "description": "Nous demandons aux visiteurs de notre site qui participent à des sondages ou des concours organisés par notre plateforme de fournir certaines informations. La participation à ces activités est entièrement volontaire, et vous êtes libre de fournir ces informations ou non. Les informations demandées incluent vos coordonnées, qui ne sont utilisées que pour contacter les gagnants des concours."
+            },
+            "section3": {
+                "title": "Fichiers Journaux et Analytiques",
+                "description": "Comme de nombreux sites web, nous utilisons des fichiers journaux pour collecter des données telles que les adresses IP, le type de navigateur, le fournisseur de services Internet, les pages visitées/de sortie, le type de plateforme, ainsi que les horodatages et les décomptes de clics. Ces informations sont collectées à des fins d'analyse, de gestion, de surveillance et de diagnostic de l'utilisation globale du site."
+            },
+            "section4": {
+                "title": "Annonces Liées au Service",
+                "description": "Nous pouvons occasionnellement envoyer des annonces liées au service à nos utilisateurs. Par exemple, si notre site est temporairement indisponible en raison d'une maintenance, nous pouvons en informer les utilisateurs par e-mail. Ces messages non promotionnels ne peuvent généralement pas faire l'objet d'un désabonnement."
+            },
+            "section5": {
+                "title": "Divulgation Légale des Informations",
+                "description": "Bien que notre priorité soit de protéger la confidentialité des informations que vous fournissez, nous pouvons être tenus par la loi de divulguer les informations que vous avez volontairement fournies lors de la passation d'une commande. Nous pouvons également partager des informations sur un tiers qui présente un risque pour nos intérêts ou dont les activités pourraient nuire à autrui."
+            },
+            "section6": {
+                "title": "Partage avec les Prestataires de Services",
+                "description": "Dans le cadre de nos opérations, nous pouvons partager vos informations personnelles avec des prestataires de services à qui nous sous-traitons certaines tâches. Ces entreprises ne sont pas autorisées à partager, stocker ou utiliser vos informations personnelles à d'autres fins que celles pour lesquelles elles sont mandatées."
+            },
+            "section7": {
+                "title": "Partage avec les Sociétés du Groupe",
+                "description": "Nous pouvons partager certaines de vos informations personnelles avec des sociétés de notre groupe. Nos sociétés sœurs qui ont accès à vos informations les traiteront avec le même niveau de confidentialité qu'elles appliquent aux informations de leurs propres clients."
+            },
+            "section8": {
+                "title": "Liens vers d'Autres Sites",
+                "description": "Veuillez noter que notre site peut contenir des liens vers d'autres sites web. Ces sites peuvent collecter des informations personnelles vous concernant. Ces conditions légales ne couvrent pas les pratiques ou politiques de collecte d'informations de ces sites."
+            },
+            "section9": {
+                "title": "Mesures de Sécurité",
+                "description": "Nous mettons en œuvre plusieurs mesures de sécurité pour protéger les informations personnelles que vous fournissez. Bien qu'aucune méthode de transmission sur Internet ou de stockage électronique ne soit 100% sécurisée, nous nous efforçons d'utiliser des moyens commercialement acceptables pour protéger vos données personnelles."
+            },
+            "section10": {
+                "title": "Modifications de cette Politique de Confidentialité",
+                "description": "Nous nous réservons le droit de modifier cette politique de confidentialité à tout moment. Tout changement sera communiqué par la mise à jour de ce document. Nous vous encourageons à le consulter régulièrement."
+            }
+        }
+    },
+    "contact": {
+        "title": "Contactez-nous",
+        "description": "Vous avez un problème technique ? Vous souhaitez donner votre avis sur une fonctionnalité bêta ? Besoin de détails sur notre plan d'affaires ? Faites-le nous savoir.",
+        "emailLabel": "Votre email",
+        "emailPlaceholder": "Entrez votre email",
+        "subjectLabel": "Sujet",
+        "subjectPlaceholder": "Dites-nous comment nous pouvons vous aider",
+        "messageLabel": "Votre message",
+        "messagePlaceholder": "Laissez un commentaire...",
+        "submitButton": "Envoyer le message"
+    },
+    "about": {
+        "title": "À Propos de Nous",
+        "description": "En savoir plus sur notre entreprise, notre mission et les valeurs qui nous motivent.",
+        "ourStory": {
+            "title": "Notre Histoire",
+            "description": "Nous avons commencé avec la vision de créer des produits innovants et de haute qualité qui rapprochent les gens. Notre parcours a été marqué par la passion, l'engagement et la croissance."
+        },
+        "ourMission": {
+            "title": "Notre Mission",
+            "description": "Notre mission est de fournir des produits exceptionnels qui améliorent votre vie et apportent de la joie à chaque occasion. Nous visons l'excellence et l'innovation dans tout ce que nous faisons."
+        },
+        "ourValues": {
+            "title": "Nos Valeurs",
+            "description": "L'intégrité, le souci du client et l'amélioration continue sont les valeurs fondamentales qui nous guident. Nous nous engageons à respecter ces valeurs dans toutes nos activités."
+        }
+    },
+    "thankYou": {
+        "title": "Merci pour votre commande !",
+        "description": "Nous sommes impatients de traiter votre commande. Notre équipe s'en occupera sous peu.",
+        "callSoon": {
+            "title": "Nous vous appellerons bientôt",
+            "description": "Attendez-vous à un appel de notre équipe pour confirmer les détails de votre commande."
+        },
+        "preparingShipment": {
+            "title": "Préparation à l'expédition",
+            "description": "Nous préparons vos articles pour la livraison."
+        },
+        "orderConfirmationEmail": {
+            "title": "E-mail de confirmation de commande",
+            "description": "Vérifiez votre boîte de réception pour un résumé détaillé de la commande."
+        },
+        "returnHome": "Retour à la page d'accueil"
+    }
+}

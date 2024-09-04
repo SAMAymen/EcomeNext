@@ -1,0 +1,133 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+generator zod {
+  provider = "npx zod-prisma-types"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id       String  @id @default(auto()) @map("_id") @db.ObjectId
+  username String?
+  email    String  @unique
+  password String
+  image    String?
+  active   Boolean @default(true)
+  isAdmin  Boolean @default(false)
+
+  // relations
+  accounts Account[]
+  sessions Session[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Account {
+  id                String  @id @default(auto()) @map("_id") @db.ObjectId
+  userId            String  @db.ObjectId
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  sessionToken String   @unique
+  userId       String   @db.ObjectId
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Product {
+  id          String  @id @default(auto()) @map("_id") @db.ObjectId
+  name        String
+  nameFr      String  // French name
+  nameAr      String  // Arabic name
+  description String
+  descriptionFr String  // French description
+  descriptionAr String  // Arabic description
+  price       Float
+  image       String[]
+  stock       Int
+  active      Boolean @default(false)
+  featured    Boolean @default(false)
+  features       Feature[] // Related features
+  specifications Specification[] // Related specifications
+  orders         Order[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+
+model Feature {
+  id            String  @id @default(auto()) @map("_id") @db.ObjectId
+  content       String
+  contentFr     String  // French content
+  contentAr     String  // Arabic content
+  contentDetail String
+  contentDetailFr String // French content detail
+  contentDetailAr String // Arabic content detail
+  icon          String
+  productId     String  @db.ObjectId
+  product       Product @relation(fields: [productId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Specification {
+  id          String  @id @default(auto()) @map("_id") @db.ObjectId
+  title       String
+  titleFr     String  // French title
+  titleAr     String  // Arabic title
+  description String
+  descriptionFr String // French description
+  descriptionAr String // Arabic description
+  media       String[]
+  productId   String  @db.ObjectId
+  product     Product @relation(fields: [productId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Order {
+  id              String   @id @default(auto()) @map("_id") @db.ObjectId
+  productId       String   @db.ObjectId
+  product         Product  @relation(fields: [productId], references: [id])
+  quantity        Int
+  totalPrice      Float
+  discount        Float    @default(0)
+  status          String   @default("pending") // e.g., "pending", "shipped", "delivered"
+  shippingAddress String
+  paymentMethod   String   @default("cash_on_delivery")
+  paymentStatus   String   @default("unpaid") // e.g., "unpaid", "paid"
+  customerName    String
+  customerPhone   String
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
