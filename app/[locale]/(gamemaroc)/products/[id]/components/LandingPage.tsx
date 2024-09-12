@@ -153,7 +153,7 @@ const LandingPage = ({ product }: { product: ProductWithDetails }) => {
       </section>
 
       {/* Section 4: Social Proof */}
-      <section className="">
+      {/* <section className="">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
           <div className="mx-auto max-w-screen-sm">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
@@ -164,7 +164,7 @@ const LandingPage = ({ product }: { product: ProductWithDetails }) => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Sticky Buy Now Button */}
       <StickyBuyBtn />
